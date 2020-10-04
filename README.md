@@ -21,10 +21,12 @@ I don't have a truth table for the decoder done in a pretty way yet.
 
 Finished, and they are:
 
-a - m0 + m2 + m3 + m5 + m6 + m7 + m8 + m9
-b - m0 + m1 + m2 + m3 + m4 + m7 + m8 + m9
-c - m0 + m1 + m3 + m4 + m5 + m6 + m7 + m8 + m9
-d - m0 + m2 + m3 + m5 + m6 + m8 + m9
-e - m0 + m2 + m6 + m8
-f - m0 + m4 + m5 + m6 + m8 + m9
-g - m2 + m3 + m4 + m5 + m6 + m8 + m9
+| pin | minterm expression |
+| --- | ------------------------------------------- |
+| a |  m0 + m2 + m3 + m5 + m6 + m7 + m8 + m9 |
+| b | m0 + m1 + m2 + m3 + m4 + m7 + m8 + m9 |
+| c | m0 + m1 + m3 + m4 + m5 + m6 + m7 + m8 + m9 |
+| d | m0 + m2 + m3 + m5 + m6 + m8 + m9 |
+| e | m0 + m2 + m6 + m8 |
+| f | m0 + m4 + m5 + m6 + m8 + m9 |
+| g | m2 + m3 + m4 + m5 + m6 + m8 + m9 |
